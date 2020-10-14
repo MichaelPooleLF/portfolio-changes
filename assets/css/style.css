@@ -941,13 +941,11 @@ h1, h2, h3, h4,
 
 .portfolio .box {
     position: relative;
-    cursor: pointer;
     margin: -8px;
     padding: 8px;
 }
 
 .portfolio .box:before {
-    background: rgba(0, 0, 0, 0.07);
     border-radius: 8px;
     content: "";
     height: 100%;
