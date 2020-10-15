@@ -901,6 +901,40 @@ h1, h2, h3, h4,
     background-image: url(../images/fitness-buddy.png);
 }
 
+.rounded {
+    border-radius: 20px;
+}
+
+.inner-rounded {
+    border-radius: 15px;
+}
+
+.border-black {
+    border: 5px solid black;
+}
+
+.faded {
+    background-color: rgba(0, 0, 0 ,0.5);
+}
+
+.faded .white {
+    color: white;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.absolute {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
 /*End Services Section*/
 
 
@@ -1086,6 +1120,10 @@ input.form-control:last-of-type {
 
 .msg_success {
   color: #1FB4DA;
+}
+
+.no-resize {
+    resize: none;
 }
 
 /*End Contact Section*/
