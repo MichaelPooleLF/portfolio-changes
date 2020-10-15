@@ -7,13 +7,13 @@ Template Name: Morgan - Creative Portfolio Template
 
 /*
 * -----------------------------------------------------
-*  01.Common Styles 
-*  02.Preloader 
+*  01.Common Styles
+*  02.Preloader
 *  03.Home Section
-*  04.About Section 
-*  05.Services Section 
-*  06.Portfolio Section 
-*  07.Contact Section 
+*  04.About Section
+*  05.Services Section
+*  06.Portfolio Section
+*  07.Contact Section
 *  08.Footer
 * -----------------------------------------------------
 */
@@ -21,7 +21,7 @@ Template Name: Morgan - Creative Portfolio Template
 
 
 /*=================================*/
-/*  01.Common Styles 
+/*  01.Common Styles
 /*=================================*/
 
 *{
@@ -44,7 +44,7 @@ img {
     width: 100%;
     height: auto;
     max-width: 100%;
-    vertical-align: top; 
+    vertical-align: top;
 }
 
 a, a:hover, a:focus  {
@@ -182,7 +182,7 @@ h1, h2, h3, h4,
 
 
 /*=================================*/
-/*  02.Preloader 
+/*  02.Preloader
 /*=================================*/
 
 .page-loader {
@@ -193,7 +193,7 @@ h1, h2, h3, h4,
     top: 0;
     left: 0;
     background: #fff;
-    z-index: 1000;    
+    z-index: 1000;
 }
 
 .loader {
@@ -312,7 +312,7 @@ h1, h2, h3, h4,
     font-weight: 700;
 }
 
-.navbar-default .navbar-brand:hover, 
+.navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
     color: #fff;
 }
@@ -358,7 +358,7 @@ h1, h2, h3, h4,
     transition: transform .3s cubic-bezier(0.25,.46,.45,.94),opacity 0s linear;
 }
 
-.navbar-default .navbar-nav > li > a:hover, 
+.navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
@@ -381,13 +381,13 @@ h1, h2, h3, h4,
     color: #333;
 }
 
-.nav_scroll .navbar-brand:hover, 
+.nav_scroll .navbar-brand:hover,
 .nav_scroll .navbar-brand:focus {
     color: #333;
 }
 
 .nav_scroll .navbar-nav > li > a,
-.nav_scroll .navbar-nav > li > a:hover, 
+.nav_scroll .navbar-nav > li > a:hover,
 .nav_scroll .navbar-nav > li > a:focus,
 .nav_scroll .navbar-nav > .active > a,
 .nav_scroll .navbar-nav > .active > a:hover,
@@ -399,7 +399,7 @@ h1, h2, h3, h4,
     background: rgba(0, 0, 0, 0.85);
 }
 
-.navbar-default .navbar-toggle:hover, 
+.navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
     background-color: transparent;
 }
@@ -688,7 +688,7 @@ h1, h2, h3, h4,
     transition: all 0.3s ease-in-out;
 }
 
-.go_down span:last-of-type::after, 
+.go_down span:last-of-type::after,
 .go_down span:last-of-type::before {
     width: 10px;
 }
@@ -714,7 +714,7 @@ h1, h2, h3, h4,
             transform: translateY(4px); }
   100% {
     -webkit-transform: translateY(-4px);
-            transform: translateY(-4px); } 
+            transform: translateY(-4px); }
 }
 
 @keyframes go_down_anim {
@@ -726,7 +726,7 @@ h1, h2, h3, h4,
             transform: translateY(4px); }
   100% {
     -webkit-transform: translateY(-4px);
-            transform: translateY(-4px); } 
+            transform: translateY(-4px); }
 }
 
 .home .curveDownColor {
@@ -740,7 +740,7 @@ h1, h2, h3, h4,
 
 
 /*=================================*/
-/*  04.About Section 
+/*  04.About Section
 /*=================================*/
 
 .about h3 {
@@ -808,7 +808,7 @@ h1, h2, h3, h4,
 
 
 /*=================================*/
-/*  05.Services Section 
+/*  05.Services Section
 /*=================================*/
 
 .services .content {
@@ -882,12 +882,31 @@ h1, h2, h3, h4,
     font-size: 15px;
 }
 
+.project-image {
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.night-out {
+    background-image: url(../images/night-out.png);
+}
+
+.wicked-sales {
+    background-image: url(../images/wicked-sales.png);
+}
+
+.fitness-buddy {
+    background-image: url(../images/fitness-buddy.png);
+}
+
 /*End Services Section*/
 
 
 
 /*=================================*/
-/*  06.Portfolio Section 
+/*  06.Portfolio Section
 /*=================================*/
 
 .portfolio .sec_title span {
@@ -922,13 +941,11 @@ h1, h2, h3, h4,
 
 .portfolio .box {
     position: relative;
-    cursor: pointer;
     margin: -8px;
     padding: 8px;
 }
 
 .portfolio .box:before {
-    background: rgba(0, 0, 0, 0.07);
     border-radius: 8px;
     content: "";
     height: 100%;
@@ -959,7 +976,7 @@ h1, h2, h3, h4,
 
 
 /*=================================*/
-/*  07.Contact Section 
+/*  07.Contact Section
 /*=================================*/
 
 .contact .sec_title span {
@@ -1042,7 +1059,7 @@ input.form-control:last-of-type {
 .btn.focus,
 .btn:active.focus,
 .btn.active.focus {
-    outline: none;    
+    outline: none;
 }
 
 .errorForm {
